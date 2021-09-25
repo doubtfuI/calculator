@@ -1,5 +1,6 @@
-from excel_handler import main
+from handlers import ExcelHandler
 
 
 if __name__ == '__main__':
-    main()
+    e = ExcelHandler()
+    e.handle_excel()
